@@ -1,1 +1,2939 @@
-{}
+{
+	"css-reset": {
+		"prefix": "*",
+		"body": [
+			"*{",
+			"margin:0;",
+			"padding:0;",
+			"box-sizing:border-box;",
+			"}"
+		],
+		"description": ""
+	},
+	"text-align: center": {
+		"prefix": "text-align: center",
+		"body": "text-align: center;",
+		"description": ""
+	},
+	"text-align: center ": {
+		"prefix": "tac",
+		"body": "text-align: center;",
+		"description": ""
+	},
+	"text-align: right": {
+		"prefix": "text-align: right",
+		"body": "text-align: right;",
+		"description": ""
+	},
+	"text-align: right ": {
+		"prefix": "tar",
+		"body": "text-align: right;",
+		"description": ""
+	},
+	"text-align: left": {
+		"prefix": "text-align: left",
+		"body": "text-align: left;",
+		"description": ""
+	},
+	"text-align: left ": {
+		"prefix": "tal",
+		"body": "text-align: left;",
+		"description": ""
+	},
+	"text-align: justify": {
+		"prefix": "text-align: justify",
+		"body": "text-align: justify;",
+		"description": ""
+	},
+	"text-align: justify ": {
+		"prefix": "taj",
+		"body": "text-align: justify;",
+		"description": ""
+	},
+	"text-align-last: auto": {
+		"prefix": "text-align-last: auto",
+		"body": " text-align-last: auto; ",
+		"description": ""
+	},
+	"text-align-last: auto ": {
+		"prefix": "tala",
+		"body": " text-align-last: auto; ",
+		"description": ""
+	},
+	"text-align-last: center": {
+		"prefix": "text-align-last: center",
+		"body": " text-align-last: center; ",
+		"description": ""
+	},
+	"text-align-last: center ": {
+		"prefix": "talc",
+		"body": " text-align-last: center; ",
+		"description": ""
+	},
+	"text-align-last: justify": {
+		"prefix": "text-align-last: justify",
+		"body": " text-align-last: justify; ",
+		"description": ""
+	},
+	"text-align-last: justify ": {
+		"prefix": "talj",
+		"body": " text-align-last: justify; ",
+		"description": ""
+	},
+	"text-align-last: left": {
+		"prefix": "text-align-last: left",
+		"body": " text-align-last: left; ",
+		"description": ""
+	},
+	"text-align-last: left ": {
+		"prefix": "tall",
+		"body": " text-align-last: left; ",
+		"description": ""
+	},
+	"text-align-last: right": {
+		"prefix": "text-align-last: right",
+		"body": " text-align-last: right; ",
+		"description": ""
+	},
+	"text-align-last: right ": {
+		"prefix": "talr",
+		"body": " text-align-last: right; ",
+		"description": ""
+	},
+	"text-decoration: none": {
+		"prefix": "text-decoration: none",
+		"body": "text-decoration: none;",
+		"description": ""
+	},
+	"text-decoration: none ": {
+		"prefix": "tdn",
+		"body": "text-decoration: none;",
+		"description": ""
+	},
+	"text-decoration: double": {
+		"prefix": "text-decoration: double",
+		"body": "text-decoration: double;",
+		"description": ""
+	},
+	"text-decoration: double ": {
+		"prefix": "tddou",
+		"body": "text-decoration: double;",
+		"description": ""
+	},
+	"text-decoration: dotted": {
+		"prefix": "text-decoration: dotted",
+		"body": "text-decoration: dotted;",
+		"description": ""
+	},
+	"text-decoration: dotted ": {
+		"prefix": "tddot",
+		"body": "text-decoration: dotted;",
+		"description": ""
+	},
+	"text-decoration: dashed": {
+		"prefix": "text-decoration: dashed",
+		"body": "text-decoration: dashed;",
+		"description": ""
+	},
+	"text-decoration: dashed ": {
+		"prefix": "tdda",
+		"body": "text-decoration: dashed;",
+		"description": ""
+	},
+	"text-decoration: line-through": {
+		"prefix": "text-decoration: line-through",
+		"body": "text-decoration: line-through;",
+		"description": ""
+	},
+	"text-decoration: line-through ": {
+		"prefix": "tdlt",
+		"body": "text-decoration: line-through;",
+		"description": ""
+	},
+	"text-decoration: overline": {
+		"prefix": "text-decoration: overline",
+		"body": "text-decoration: overline;",
+		"description": ""
+	},
+	"text-decoration: overline ": {
+		"prefix": "tdo",
+		"body": "text-decoration: overline;",
+		"description": ""
+	},
+	"text-decoration: solid": {
+		"prefix": "text-decoration: solid",
+		"body": "text-decoration: solid;",
+		"description": ""
+	},
+	"text-decoration: solid ": {
+		"prefix": "tds",
+		"body": "text-decoration: solid;",
+		"description": ""
+	},
+	"text-decoration: underline": {
+		"prefix": "text-decoration: underline",
+		"body": "text-decoration: underline;",
+		"description": ""
+	},
+	"text-decoration: underline ": {
+		"prefix": "tdu",
+		"body": "text-decoration: underline;",
+		"description": ""
+	},
+	"text-decoration: wavy": {
+		"prefix": "text-decoration: wavy",
+		"body": "text-decoration: wavy;",
+		"description": ""
+	},
+	"text-decoration: wavy ": {
+		"prefix": "tdw",
+		"body": "text-decoration: wavy;",
+		"description": ""
+	},
+	"text-decoration-color: ;": {
+		"prefix": "text-decoration-color: ;",
+		"body": "text-decoration-color: ${1:gray};",
+		"description": ""
+	},
+	"text-decoration-color: black ": {
+		"prefix": "text-decoration-color: black;",
+		"body": "text-decoration-color: black;",
+		"description": ""
+	},
+	"text-decoration-color: ; ": {
+		"prefix": "tdc",
+		"body": "text-decoration-color: ${1:gray};",
+		"description": ""
+	},
+	"text-decoration-skip: ;": {
+		"prefix": "text-decoration-skip: ;",
+		"body": " text-decoration-skip: ${1:amount};",
+		"description": ""
+	},
+	"text-decoration-skip: ; ": {
+		"prefix": "tds",
+		"body": "text-decoration-skip: ${1:amount};",
+		"description": ""
+	},
+	"text-decoration-line: none": {
+		"prefix": "text-decoration-line: none",
+		"body": "text-decoration-line: none;",
+		"description": ""
+	},
+	"text-decoration-line: none ": {
+		"prefix": "tdln",
+		"body": "text-decoration-line: none;",
+		"description": ""
+	},
+	"text-decoration-line: line-through": {
+		"prefix": "text-decoration-line: line-through",
+		"body": "text-decoration-line: line-through;",
+		"description": ""
+	},
+	"text-decoration-line: line-through ": {
+		"prefix": "tdllt",
+		"body": "text-decoration-line: line-through;",
+		"description": ""
+	},
+	"text-decoration-line: overline": {
+		"prefix": "text-decoration-line: overline",
+		"body": "text-decoration-line: overline;",
+		"description": ""
+	},
+	"text-decoration-line: overline ": {
+		"prefix": "tdlo",
+		"body": "text-decoration-line: overline;",
+		"description": ""
+	},
+	"text-decoration-line: underline": {
+		"prefix": "text-decoration-line: underline",
+		"body": "text-decoration-line: underline;",
+		"description": ""
+	},
+	"text-decoration-line: underline ": {
+		"prefix": "tdlu",
+		"body": "text-decoration-line: underline;",
+		"description": ""
+	},
+	"text-decoration": {
+		"prefix": "text-decoration",
+		"body": "text-decoration: ${1:text-decoration-line} ${2:text-decoration-style} ${3:text-decoration-color};",
+		"description": ""
+	},
+	"text-decoration ": {
+		"prefix": "td",
+		"body": "text-decoration: ${1:text-decoration-line} ${2:text-decoration-style} ${3:text-decoration-color};",
+		"description": ""
+	},
+		"text-decoration-style: dashed": {
+		"prefix": "text-decoration-style: dashed",
+		"body": "text-decoration-style: dashed;",
+		"description": ""
+	},
+		"text-decoration-style: dashed ": {
+		"prefix": "tdsd",
+		"body": "text-decoration-style: dashed;",
+		"description": ""
+	},
+	"text-decoration-style: solid": {
+		"prefix": "text-decoration-style: solid",
+		"body": "text-decoration-style: solid;",
+		"description": ""
+	},
+	"text-decoration-style: solid ": {
+		"prefix": "tdss",
+		"body": "text-decoration-style: solid;",
+		"description": ""
+	},
+	"text-decoration-style: double": {
+		"prefix": "text-decoration-style: double",
+		"body": "text-decoration-style: double;",
+		"description": ""
+	},
+	"text-decoration-style: double ": {
+		"prefix": "tdsdou",
+		"body": "text-decoration-style: double;",
+		"description": ""
+	},
+	"text-decoration-style: dotted": {
+		"prefix": "text-decoration-style: dotted",
+		"body": "text-decoration-style: dotted;",
+		"description": ""
+	},
+	"text-decoration-style: dotted ": {
+		"prefix": "tdsdot",
+		"body": "text-decoration-style: dotted;",
+		"description": ""
+	},
+	"text-decoration-style: wavy": {
+		"prefix": "text-decoration-style: wavy",
+		"body": "text-decoration-style: wavy;",
+		"description": ""
+	},
+	"text-decoration-style: wavy ": {
+		"prefix": "tdsw",
+		"body": "text-decoration-style: wavy;",
+		"description": ""
+	},
+		"text-decoration-skip-ink: none": {
+		"prefix": "text-decoration-skip-ink: none",
+		"body": "text-decoration-skip-ink: none;",
+		"description": ""
+	},
+		"text-decoration-skip-ink: none ": {
+		"prefix": "tdsin",
+		"body": "text-decoration-skip-ink: none;",
+		"description": ""
+	},
+	"text-decoration-skip-ink: auto": {
+		"prefix": "text-decoration-skip-ink: auto",
+		"body": "text-decoration-skip-ink: auto;",
+		"description": ""
+	},
+	"text-decoration-skip-ink: auto ": {
+		"prefix": "tdsia",
+		"body": "text-decoration-skip-ink: auto;",
+		"description": ""
+	},
+	"text-transform: capitalize": {
+		"prefix": "text-transform: capitalize",
+		"body": "text-transform: capitalize;",
+		"description": ""
+	},
+	"text-transform: capitalize ": {
+		"prefix": "ttc",
+		"body": "text-transform: capitalize;",
+		"description": ""
+	},
+	"text-transform: lowercase": {
+		"prefix": "text-transform: lowercase",
+		"body": "text-transform: lowercase;",
+		"description": ""
+	},
+	"text-transform: lowercase ": {
+		"prefix": "ttl",
+		"body": "text-transform: lowercase;",
+		"description": ""
+	},
+	"text-transform: none": {
+		"prefix": "text-transform: none",
+		"body": "text-transform: none;",
+		"description": ""
+	},
+	"text-transform: none ": {
+		"prefix": "ttn",
+		"body": "text-transform: none;",
+		"description": ""
+	},
+	"text-transform: uppercase": {
+		"prefix": "text-transform: uppercase",
+		"body": "text-transform: uppercase;",
+		"description": ""
+	},
+	"text-transform: uppercase ": {
+		"prefix": "ttu",
+		"body": "text-transform: uppercase;",
+		"description": ""},
+	"text-overflow: clip": {
+		"prefix": "text-overflow: clip",
+		"body": "text-overflow: clip;",
+		"description": ""
+	},
+	"text-overflow: clip ": {
+		"prefix": "toc",
+		"body": "text-overflow: clip;",
+		"description": ""
+	},
+	"text-overflow: ellipsis": {
+		"prefix": "text-overflow: ellipsis",
+		"body": "text-overflow: ellipsis;",
+		"description": ""
+	},
+	"text-overflow: ellipsis ": {
+		"prefix": "toe",
+		"body": "text-overflow: ellipsis;",
+		"description": ""
+	},
+	"text-shadow": {
+		"prefix": "text-shadow",
+		"body": "text-shadow: ${1:x-offset(px)} ${2:y-offset(px)} ${3:blur(px)} ${4:gray};",
+		"description": ""
+	},
+	"text-shadow ": {
+		"prefix": "tsh",
+		"body": "text-shadow: ${1:x-offset(px)} ${2:y-offset(px)} ${3:blur(px)} ${4:gray};",
+		"description": ""
+	},
+	"text-shadow: text-shadow: 10px 10px 40px #e8e8e8;": {
+		"prefix": "text-shadow: 10px 10px 40px #e8e8e8;",
+		"body": "text-shadow: 10px 10px 40px #e8e8e8;",
+		"description": ""
+	},
+	"text-indent": {
+		"prefix": "text-indent",
+		"body": "text-indent: ${1:amount(px)};",
+		"description": ""
+	},
+	"text-indent: 10px;": {
+		"prefix": "text-indent: 10px;",
+		"body": "text-indent: 10px;",
+		"description": ""
+	},
+	"text-indent ": {
+		"prefix": "ti",
+		"body": "text-indent: ${1:amount(px)};",
+		"description": ""
+	},
+	"text-rendering: auto": {
+		"prefix": "text-rendering: auto",
+		"body": "text-rendering: auto;",
+		"description": ""
+	},
+	"text-rendering: auto ": {
+		"prefix": "tra",
+		"body": "text-rendering: auto;",
+		"description": ""
+	},
+	"text-rendering: geometricPrecision": {
+		"prefix": "text-rendering: geometricPrecision",
+		"body": "text-rendering: geometricPrecision;",
+		"description": ""
+	},
+	"text-rendering: geometricPrecision ": {
+		"prefix": "trg",
+		"body": "text-rendering: geometricPrecision;",
+		"description": ""
+	},
+	"text-rendering: optimizeLegibility": {
+		"prefix": "text-rendering: optimizeLegibility",
+		"body": "text-rendering: optimizeLegibility;",
+		"description": ""
+	},
+	"text-rendering: optimizeLegibility ": {
+		"prefix": "trol",
+		"body": "text-rendering: optimizeLegibility;",
+		"description": ""
+	},
+	"text-rendering: optimizeSpeed": {
+		"prefix": "text-rendering: optimizeSpeed",
+		"body": "text-rendering: optimizeSpeed;",
+		"description": ""
+	},
+	"text-rendering: optimizeSpeed ": {
+		"prefix": "tros",
+		"body": "text-rendering: optimizeSpeed;",
+		"description": ""
+	},
+	" text-size-adjust": {
+		"prefix": "text-size-adjust",
+		"body": "text-size-adjust: ${1:amount(px)};",
+		"description": ""
+	},
+	" text-size-adjust ": {
+		"prefix": "tsa",
+		"body": "text-size-adjust: ${1:amount(px)};",
+		"description": ""
+	},
+	"text-anchor: end": {
+		"prefix": "text-anchor: end",
+		"body": "text-anchor: end;",
+		"description": ""
+	},
+	"text-anchor: end ": {
+		"prefix": "tae",
+		"body": "text-anchor: end;",
+		"description": ""
+	},
+	"text-anchor: middle": {
+		"prefix": "text-anchor: middle",
+		"body": "text-anchor: middle;",
+		"description": ""
+	},
+	"text-anchor: middle ": {
+		"prefix": "tam",
+		"body": "text-anchor: middle;",
+		"description": ""
+	},
+	"text-anchor: start": {
+		"prefix": "text-anchor: start",
+		"body": "text-anchor: start;",
+		"description": ""
+	},
+	"text-anchor: start ": {
+		"prefix": "tas",
+		"body": "text-anchor: start;",
+		"description": ""
+	},
+
+	"text-underline-position: auto": {
+		"prefix": "text-underline-position: auto",
+		"body": "text-underline-position: auto;",
+		"description": ""
+	},
+	"text-underline-position: auto ": {
+		"prefix": "tupau",
+		"body": "text-underline-position: auto;",
+		"description": ""
+	},
+	"text-underline-position: above": {
+		"prefix": "text-underline-position: above",
+		"body": "text-underline-position: above;",
+		"description": ""
+	},
+	"text-underline-position: above ": {
+		"prefix": "tupab",
+		"body": "text-underline-position: above;",
+		"description": ""
+	},
+	"text-underline-position: below": {
+		"prefix": "text-underline-position: below",
+		"body": "text-underline-position: below;",
+		"description": ""
+	},
+	"text-underline-position: below ": {
+		"prefix": "tupb",
+		"body": "text-underline-position: below;",
+		"description": ""
+	},
+	"text-orientation: mixed": {
+		"prefix": "text-orientation: mixed",
+		"body": "text-orientation: mixed;",
+		"description": ""
+	},
+	"text-orientation: mixed ": {
+		"prefix": "tom",
+		"body": "text-orientation: mixed;",
+		"description": ""
+	},
+	"text-orientation: sideways": {
+		"prefix": "text-orientation: sideways",
+		"body": "text-orientation: sideways;",
+		"description": ""
+	},
+	"text-orientation: sideways ": {
+		"prefix": "tos",
+		"body": "text-orientation: sideways;",
+		"description": ""
+	},
+	"text-orientation: sideways-right": {
+		"prefix": "text-orientation: sideways-right",
+		"body": "text-orientation: sideways-right;",
+		"description": ""
+	},
+	"text-orientation: sideways-right ": {
+		"prefix": "tosr",
+		"body": "text-orientation: sideways-right;",
+		"description": ""
+	},
+	"text-orientation: upright": {
+		"prefix": "text-orientation: upright",
+		"body": "text-orientation: upright;",
+		"description": ""
+	},
+	"text-orientation: upright ": {
+		"prefix": "tou",
+		"body": "text-orientation: upright;",
+		"description": ""
+	},
+
+	"text-combine-upright: all": {
+		"prefix": "text-combine-upright: all",
+		"body": "text-combine-upright: all;",
+		"description": ""
+	},
+	"text-combine-upright: all ": {
+		"prefix": "tcua",
+		"body": "text-combine-upright: all;",
+		"description": ""
+	},
+	"text-combine-upright: none": {
+		"prefix": "text-combine-upright: none",
+		"body": "text-combine-upright: none;",
+		"description": ""
+	},
+	"text-combine-upright: none ": {
+		"prefix": "tcun",
+		"body": "text-combine-upright: none;",
+		"description": ""
+	},
+		"text-justify: auto": {
+		"prefix": "text-justify: auto",
+		"body": "text-justify: auto;",
+		"description": ""
+	},
+		"text-justify: auto ": {
+		"prefix": "tja",
+		"body": "text-justify: auto;",
+		"description": ""
+	},
+		"text-justify: newspaper": {
+		"prefix": "text-justify: newspaper",
+		"body": "text-justify: newspaper;",
+		"description": ""
+	},
+		"text-justify: newspaper ": {
+		"prefix": "tjn",
+		"body": "text-justify: newspaper;",
+		"description": ""
+	},
+		"text-justify: kashida": {
+		"prefix": "text-justify: kashida",
+		"body": "text-justify: kashida;",
+		"description": ""
+	},
+		"text-justify: kashida ": {
+		"prefix": "tjk",
+		"body": "text-justify: kashida;",
+		"description": ""
+	},
+		"text-justify: inter-word": {
+		"prefix": "text-justify: inter-word",
+		"body": "text-justify: inter-word;",
+		"description": ""
+	},
+		"text-justify: inter-word ": {
+		"prefix": "tjiw",
+		"body": "text-justify: inter-word;",
+		"description": ""
+	},
+		"text-justify: inter-ideograph": {
+		"prefix": "text-justify: inter-ideograph",
+		"body": "text-justify: inter-ideograph;",
+		"description": ""
+	},
+		"text-justify: inter-ideograph ": {
+		"prefix": "tjii",
+		"body": "text-justify: inter-ideograph;",
+		"description": ""
+	},
+		"text-justify: inter-cluster": {
+		"prefix": "text-justify: inter-cluster",
+		"body": "text-justify: inter-cluster;",
+		"description": ""
+	},
+		"text-justify: inter-cluster ": {
+		"prefix": "tjic",
+		"body": "text-justify: inter-cluster;",
+		"description": ""
+	},
+		"text-justify: distribute-all-lines": {
+		"prefix": "text-justify: distribute-all-lines",
+		"body": "text-justify: distribute-all-lines;",
+		"description": ""
+	},
+		"text-justify: distribute-all-lines ": {
+		"prefix": "tjdal",
+		"body": "text-justify: distribute-all-lines;",
+		"description": ""
+	},
+		"text-justify: distribute": {
+		"prefix": "text-justify: distribute",
+		"body": "text-justify: distribute;",
+		"description": ""
+	},
+		"text-justify: distribute ": {
+		"prefix": "tjd",
+		"body": "text-justify: distribute;",
+		"description": ""
+	},
+	"text-decoration-thickness: auto": {
+		"prefix": "text-decoration-thickness: auto",
+		"body": "text-decoration-thickness: auto;",
+		"description": ""
+	},
+	"text-decoration-thickness: auto ": {
+		"prefix": "tdta",
+		"body": "text-decoration-thickness: auto;",
+		"description": ""
+	},
+	"text-emphasis": {
+		"prefix": "text-emphasis",
+		"body": "text-emphasis: ${1:text-emphasis-style} ${2:text-emphasis-color};",
+		"description": ""
+	},
+	"text-emphasis ": {
+		"prefix": "te",
+		"body": "text-emphasis: ${1:text-emphasis-style} ${2:text-emphasis-color};",
+		"description": ""
+	},
+	"text-emphasis: none black;": {
+		"prefix": "text-emphasis: none black;",
+		"body": "text-emphasis: none black;",
+		"description": ""
+	},
+	"text-emphasis-color": {
+		"prefix": "text-emphasis-color",
+		"body": "text-emphasis-color: ${1:gray};",
+		"description": ""
+	},
+	"text-emphasis-color ": {
+		"prefix": "tec",
+		"body": "text-emphasis-color: ${1:gray};",
+		"description": ""
+	},
+	"text-emphasis-color: black;": {
+		"prefix": "text-emphasis-color: black;",
+		"body": "text-emphasis-color: black;",
+		"description": ""
+	},
+	"text-emphasis-position: over": {
+		"prefix": "text-emphasis-position: over",
+		"body": "text-emphasis-position: over;",
+		"description": ""
+	},
+	"text-emphasis-position: over ": {
+		"prefix": "tepo",
+		"body": "text-emphasis-position: over;",
+		"description": ""
+	},
+	"text-emphasis-position: under": {
+		"prefix": "text-emphasis-position: under",
+		"body": "text-emphasis-position: under;",
+		"description": ""
+	},
+	"text-emphasis-position: under ": {
+		"prefix": "tepu",
+		"body": "text-emphasis-position: under;",
+		"description": ""
+	},
+	"text-emphasis-position: right": {
+		"prefix": "text-emphasis-position: right",
+		"body": "text-emphasis-position: right;",
+		"description": ""
+	},
+	"text-emphasis-position: right ": {
+		"prefix": "tepr",
+		"body": "text-emphasis-position: right;",
+		"description": ""
+	},
+	"text-emphasis-position: left": {
+		"prefix": "text-emphasis-position: left",
+		"body": "text-emphasis-position: left;",
+		"description": ""
+	},
+	"text-emphasis-position: left ": {
+		"prefix": "tepl",
+		"body": "text-emphasis-position: left;",
+		"description": ""
+	},
+	"text-emphasis-style: none": {
+		"prefix": "text-emphasis-style: none",
+		"body": "text-emphasis-style: none;",
+		"description": ""
+	},
+	"text-emphasis-style: none ": {
+		"prefix": "tesn",
+		"body": "text-emphasis-style: none;",
+		"description": ""
+	},
+	"text-emphasis-style: filled": {
+		"prefix": "text-emphasis-style: filled",
+		"body": "text-emphasis-style: filled;",
+		"description": ""
+	},
+	"text-emphasis-style: filled ": {
+		"prefix": "tesf",
+		"body": "text-emphasis-style: filled;",
+		"description": ""
+	},
+	"text-emphasis-style: open": {
+		"prefix": "text-emphasis-style: open",
+		"body": "text-emphasis-style: open;",
+		"description": ""
+	},
+	"text-emphasis-style: open ": {
+		"prefix": "teso",
+		"body": "text-emphasis-style: open;",
+		"description": ""
+	},
+	"text-emphasis-style: dot": {
+		"prefix": "text-emphasis-style: dot",
+		"body": "text-emphasis-style: dot;",
+		"description": ""
+	},
+	"text-emphasis-style: dot ": {
+		"prefix": "tesd",
+		"body": "text-emphasis-style: dot;",
+		"description": ""
+	},
+	"text-emphasis-style: circle": {
+		"prefix": "text-emphasis-style: circle",
+		"body": "text-emphasis-style: circle;",
+		"description": ""
+	},
+	"text-emphasis-style: circle ": {
+		"prefix": "tesc",
+		"body": "text-emphasis-style: circle;",
+		"description": ""
+	},
+	"text-emphasis-style: triangle": {
+		"prefix": "text-emphasis-style: triangle",
+		"body": "text-emphasis-style: triangle;",
+		"description": ""
+	},
+	"text-emphasis-style: triangle ": {
+		"prefix": "test",
+		"body": "text-emphasis-style: triangle;",
+		"description": ""
+	},
+	"text-emphasis-style: sesame": {
+		"prefix": "text-emphasis-style: sesame",
+		"body": "text-emphasis-style: sesame;",
+		"description": ""
+	},
+	"text-emphasis-style: sesame ": {
+		"prefix": "tess",
+		"body": "text-emphasis-style: sesame;",
+		"description": ""
+	},
+	"text-underline-offset": {
+		"prefix": "text-underline-offset",
+		"body": "text-underline-offset: ${1:amount};",
+		"description": ""
+	},
+	"text-underline-offset ": {
+		"prefix": "tuo",
+		"body": "text-underline-offset: ${1:amount};",
+		"description": ""
+	},
+	"text-underline-offset: 20px;": {
+		"prefix": "text-underline-offset: 20px;",
+		"body": "text-underline-offset: 20px;",
+		"description": ""
+	},
+	"text-underline-offset: auto": {
+		"prefix": "text-underline-offset: auto",
+		"body": "text-underline-offset: auto;",
+		"description": ""
+	},
+	"text-underline-offset: auto ": {
+		"prefix": "tuoa",
+		"body": "text-underline-offset: auto;",
+		"description": ""
+	},
+	"position: default": {
+		"prefix": "position: default",
+		"body": "position: static;",
+		"description": ""
+	},
+	"position: default ": {
+		"prefix": "pd",
+		"body": "position: static;",
+		"description": ""
+	},
+	"position: absolute": {
+		"prefix": "position: absolute",
+		"body": "position: absolute;",
+		"description": ""
+	},
+	"position: absolute ": {
+		"prefix": "pa",
+		"body": "position: absolute;",
+		"description": ""
+	},
+	"position: sticky": {
+		"prefix": "position: sticky",
+		"body": "position: sticky;",
+		"description": ""
+	},
+	"position: sticky ": {
+		"prefix": "psti",
+		"body": "position: sticky;",
+		"description": ""
+	},
+	"position: static": {
+		"prefix": "position: static",
+		"body": "position: static;",
+		"description": ""
+	},
+	"position: static ": {
+		"prefix": "psta",
+		"body": "position: static;",
+		"description": ""
+	},
+	"position: relative": {
+		"prefix": "position: relative",
+		"body": "position: relative;",
+		"description": ""
+	},
+	"position: relative ": {
+		"prefix": "pr",
+		"body": "position: relative;",
+		"description": ""
+	},
+	"position: fixed": {
+		"prefix": "position: fixed",
+		"body": "position: fixed;",
+		"description": ""
+	},
+	"position: fixed ": {
+		"prefix": "pf",
+		"body": "position: fixed;",
+		"description": ""
+	},
+	"display: block": {
+		"prefix": "display: block",
+		"body": "display: block;",
+		"description": ""
+	},
+	"display: block ": {
+		"prefix": "db",
+		"body": "display: block;",
+		"description": ""
+	},
+	"display: contents": {
+		"prefix": "display: contents",
+		"body": "display: contents;",
+		"description": ""
+	},
+	"display: contents ": {
+		"prefix": "dc",
+		"body": "display: contents;",
+		"description": ""
+	},
+	"display: flex": {
+		"prefix": "display: flex",
+		"body": "display: flex;",
+		"description": ""
+	},
+	"display: flexbox": {
+		"prefix": "display: flexbox",
+		"body": "display: flexbox;",
+		"description": ""
+	},
+	"display: flexbox ": {
+		"prefix": "dfb",
+		"body": "display: flexbox;",
+		"description": ""
+	},
+	"display: flow-root": {
+		"prefix": "display: flow-root",
+		"body": "display: flow-root;",
+		"description": ""
+	},
+	"display: flow-root ": {
+		"prefix": "dfr",
+		"body": "display: flow-root;",
+		"description": ""
+	},
+	"display: grid": {
+		"prefix": "display: grid",
+		"body": "display: grid;",
+		"description": ""
+	},
+	"display: grid ": {
+		"prefix": "dg",
+		"body": "display: grid;",
+		"description": ""
+	},
+	"display: inline": {
+		"prefix": "display: inline",
+		"body": "display: inline;",
+		"description": ""
+	},
+	"display: inline ": {
+		"prefix": "di",
+		"body": "display: inline;",
+		"description": ""
+	},
+	"display: inline-block": {
+		"prefix": "display: inline-block",
+		"body": "display: inline-block;",
+		"description": ""
+	},
+	"display: inline-block ": {
+		"prefix": "dib",
+		"body": "display: inline-block;",
+		"description": ""
+	},
+	"display: inline-flexbox": {
+		"prefix": "display: inline-flexbox",
+		"body": "display: inline-flexbox;",
+		"description": ""
+	},
+	"display: inline-flexbox ": {
+		"prefix": "dif",
+		"body": "display: inline-flexbox;",
+		"description": ""
+	},
+	"display: inline-table": {
+		"prefix": "display: inline-table",
+		"body": "display: block;",
+		"description": ""
+	},
+	"display: inline-table ": {
+		"prefix": "dit",
+		"body": "display: block;",
+		"description": ""
+	},
+	"display: list-item": {
+		"prefix": "display: list-item",
+		"body": "display: list-item;",
+		"description": ""
+	},
+	"display: list-item ": {
+		"prefix": "dli",
+		"body": "display: list-item;",
+		"description": ""
+	},
+	"display: none": {
+		"prefix": "display: none",
+		"body": "display: none;",
+		"description": ""
+	},
+	"display: none ": {
+		"prefix": "dn",
+		"body": "display: none;",
+		"description": ""
+	},
+	"display: ruby": {
+		"prefix": "display: ruby",
+		"body": "display: ruby;",
+		"description": ""
+	},
+	"display: ruby ": {
+		"prefix": "dr",
+		"body": "display: ruby;",
+		"description": ""
+	},
+	"display: ruby-base": {
+		"prefix": "display: ruby-base",
+		"body": "display: ruby-base;",
+		"description": ""
+	},
+	"display: ruby-base ": {
+		"prefix": "drb",
+		"body": "display: ruby-base;",
+		"description": ""
+	},
+	"display: ruby-base-container": {
+		"prefix": "display: ruby-base-container",
+		"body": "display: ruby-base-container;",
+		"description": ""
+	},
+	"display: ruby-base-container ": {
+		"prefix": "display: drbc",
+		"body": "display: ruby-base-container;",
+		"description": ""
+	},
+	"display: ruby-text": {
+		"prefix": "display: ruby-text",
+		"body": "display: ruby-text;",
+		"description": ""
+	},
+	"display: ruby-text ": {
+		"prefix": "drt",
+		"body": "display: ruby-text;",
+		"description": ""
+	},
+	"display: ruby-text-container": {
+		"prefix": "display: ruby-text-container",
+		"body": "display: ruby-text-container;",
+		"description": ""
+	},
+	"display: ruby-text-container ": {
+		"prefix": "drtc",
+		"body": "display: ruby-text-container;",
+		"description": ""
+	},
+	"display: run-in": {
+		"prefix": "display: run-in",
+		"body": "display: run-in;",
+		"description": ""
+	},
+	"display: run-in ": {
+		"prefix": "dri",
+		"body": "display: run-in;",
+		"description": ""
+	},
+	"display: table": {
+		"prefix": "display: table",
+		"body": "display: table;",
+		"description": ""
+	},
+	"display: table ": {
+		"prefix": "dt",
+		"body": "display: table;",
+		"description": ""
+	},
+	"display: table-caption": {
+		"prefix": "display: table-caption",
+		"body": "display: table-caption;",
+		"description": ""
+	},
+	"display: table-caption ": {
+		"prefix": "dtc",
+		"body": "display: table-caption;",
+		"description": ""
+	},
+	"display: table-cell": {
+		"prefix": "display: table-cell",
+		"body": "display: table-cell;",
+		"description": ""
+	},
+	"display: table-cell ": {
+		"prefix": "dtce",
+		"body": "display: table-cell;",
+		"description": ""
+	},
+	"display: table-column": {
+		"prefix": "display: table-column",
+		"body": "display: table-column;",
+		"description": ""
+	},
+	"display: table-column ": {
+		"prefix": "dtco",
+		"body": "display: table-column;",
+		"description": ""
+	},
+	"display: table-column-group": {
+		"prefix": "display: table-column-group",
+		"body": "display: table-column-group;",
+		"description": ""
+	},
+	"display: table-column-group ": {
+		"prefix": "dtcg",
+		"body": "display: table-column-group;",
+		"description": ""
+	},
+	"display: table-footer-group": {
+		"prefix": "display: table-footer-group",
+		"body": "display: table-footer-group;",
+		"description": ""
+	},
+	"display: table-footer-group ": {
+		"prefix": "dtfg",
+		"body": "display: table-footer-group;",
+		"description": ""
+	},
+	"display: table-header-group": {
+		"prefix": "display: table-header-group",
+		"body": "display: table-header-group;",
+		"description": ""
+	},
+	"display: table-header-group ": {
+		"prefix": "dthg",
+		"body": "display: table-header-group;",
+		"description": ""
+	},
+	"display: table-row": {
+		"prefix": "display: table-row",
+		"body": "display: table-row;",
+		"description": ""
+	},
+	"display: table-row ": {
+		"prefix": "dtr",
+		"body": "display: table-row;",
+		"description": ""
+	},
+	"display: table-row-group": {
+		"prefix": "display: table-row-group",
+		"body": " display: table-row-group;",
+		"description": ""
+	},
+	"display: table-row-group ": {
+		"prefix": "dtrg",
+		"body": " display: table-row-group;",
+		"description": ""
+	},
+	"display": {
+		"prefix": "display",
+		"body": "display; ${1:display-outside} ${2:display-inside} ${3:display-listitem} ${4:display-internal} ${5:display-box} ${6:display-legacy};",
+		"description": ""
+	},
+	"@font-face": {
+		"prefix": "font-face",
+		"body": [
+			"@font-face{",
+			"src: url('${1:source}');",
+			"font-family: ${2:favorite-name};",
+			"}"
+		],
+		"description": ""
+	},
+	"@font-face ": {
+		"prefix": "@ff",
+		"body": [
+			"@font-face{",
+			"src: url('${1:source}');",
+			"font-family: ${2:favorite-name};",
+			"}"
+		],
+		"description": ""
+	},
+
+	"@keyframes: from-to": {
+		"prefix": "@keyframes: from-to",
+		"body": "@keyframes ${1:animation-name} {\r\n  from {\r\n        ${2:operation}\r\n    }\r\n\r\n    to {\r\n        ${3:operation}\r\n    }\r\n}",
+		"description": ""
+	},
+	"@keyframes: from-to ": {
+		"prefix": "k",
+		"body": "@keyframes ${1:animation-name} {\r\n    from {\r\n        ${2:operation}\r\n    }\r\n\r\n    to {\r\n        ${3:operation}\r\n    }\r\n}",
+		"description": ""
+	},
+
+	"@keyframes: %": {
+		"prefix": "@keyframes: %",
+		"body": "@keyframes animation-name {\r\n    0% {\r\n        operation\r\n        }\r\n    25% {\r\n        operation\r\n        }\r\n    50% {\r\n        operation\r\n        }\r\n    75% {\r\n        operation\r\n        }\r\n    100% {\r\n        operation\r\n    }\r\n}",
+		"description": ""
+	},
+	"@keyframes: % ": {
+		"prefix": "k%",
+		"body": "@keyframes animation-name {\r\n    0% {\r\n        operation\r\n        }\r\n    25% {\r\n        operation\r\n        }\r\n    50% {\r\n        operation\r\n        }\r\n    75% {\r\n        operation\r\n        }\r\n    100% {\r\n        operation\r\n    }\r\n}",
+		"description": ""
+	},
+	"animation-timing-function: ease": {
+		"prefix": "animation-timing-function: ease",
+		"body": "  animation-timing-function: ease;",
+		"description": ""
+	},
+	"animation-timing-function: ease ": {
+		"prefix": "atfe",
+		"body": "animation-timing-function: ease;",
+		"description": ""
+	},
+	"animation-timing-function: cubic-bezier(1, 0, 0, 1)": {
+		"prefix": "animation-timing-function: cubic-bezier(1, 0, 0, 1)",
+		"body": "animation-timing-function: cubic-bezier(1, 0, 0, 1);",
+		"description": ""
+	},
+	"animation-timing-function: cubic-bezier()": {
+		"prefix": "animation-timing-function: cubic-bezier()",
+		"body": "animation-timing-function: cubic-bezier();",
+		"description": ""
+	},
+	"animation-timing-function: cubic-bezier() ": {
+		"prefix": "atfcb",
+		"body": "animation-timing-function: cubic-bezier();",
+		"description": ""
+	},
+	"animation-timing-function: ease-in": {
+		"prefix": "animation-timing-function: ease-in",
+		"body": "animation-timing-function: ease-in;",
+		"description": ""
+	},
+	"animation-timing-function: ease-in ": {
+		"prefix": "atfei",
+		"body": "animation-timing-function: ease-in;",
+		"description": ""
+	},
+	"animation-timing-function: ease-in-out": {
+		"prefix": "animation-timing-function: ease-in-out",
+		"body": "animation-timing-function: ease-in-out;",
+		"description": ""
+	},
+	"animation-timing-function: ease-in-out ": {
+		"prefix": "atfeio",
+		"body": "animation-timing-function: ease-in-out;",
+		"description": ""
+	},
+	"animation-timing-function: ease-out": {
+		"prefix": "animation-timing-function: ease-out",
+		"body": "animation-timing-function: ease-out;",
+		"description": ""
+	},
+	"animation-timing-function: ease-out ": {
+		"prefix": "atfeo",
+		"body": "animation-timing-function: ease-out;",
+		"description": ""
+	},
+	"animation-timing-function: linear": {
+		"prefix": "animation-timing-function: linear",
+		"body": "animation-timing-function: linear;",
+		"description": ""
+	},
+	"animation-timing-function: linear ": {
+		"prefix": "atfl",
+		"body": "animation-timing-function: linear;",
+		"description": ""
+	},
+	"animation-timing-function: step-end": {
+		"prefix": "animation-timing-function: step-end",
+		"body": "animation-timing-function: step-end;",
+		"description": ""
+	},
+	"animation-timing-function: step-end ": {
+		"prefix": "atfse",
+		"body": "animation-timing-function: step-end;",
+		"description": ""
+	},
+	"animation-timing-function: step-start": {
+		"prefix": "animation-timing-function: step-start",
+		"body": "animation-timing-function: step-start;",
+		"description": ""
+	},
+	"animation-timing-function: step-start ": {
+		"prefix": "atfss",
+		"body": "animation-timing-function: step-start;",
+		"description": ""
+	},
+	"animation-timing-function: steps()": {
+		"prefix": "animation-timing-function: steps()",
+		"body": "animation-timing-function: steps();",
+		"description": ""
+	},
+	"animation-timing-function: steps() ": {
+		"prefix": "atfs",
+		"body": "animation-timing-function: steps();",
+		"description": ""
+	},
+	"animation-delay": {
+		"prefix": "animation-delay",
+		"body": "animation-delay: ${1:time(s|ms)};",
+		"description": ""
+	},
+	"animation-delay ": {
+		"prefix": "ad",
+		"body": "animation-delay: ${1:time(s|ms)};",
+		"description": ""
+	},
+	"animation-delay: 1s;": {
+		"prefix": "animation-delay: 1s;",
+		"body": "animation-delay: 1s;",
+		"description": ""
+	},
+	"animation-name": {
+		"prefix": "animation-name",
+		"body": "animation-name: ${1:keyframes-name};",
+		"description": ""
+	},
+	"animation-name ": {
+		"prefix": "an",
+		"body": "animation-name: ${1:keyframes-name};",
+		"description": ""
+	},
+	"animation-duration": {
+		"prefix": "animation-duration",
+		"body": "animation-duration: ${1:duration-time(s|ms)};",
+		"description": ""
+	},
+	"animation-duration ": {
+		"prefix": "ad",
+		"body": "animation-duration: ${1:duration-time(s|ms)};",
+		"description": ""
+	},
+	"animation-duration: 1s;": {
+		"prefix": "animation-duration: 1s;",
+		"body": "animation-duration: 1s;",
+		"description": ""
+	},
+	"animation-fill-mode: none": {
+		"prefix": "animation-fill-mode: none",
+		"body": "animation-fill-mode: none;",
+		"description": ""
+	},
+	"animation-fill-mode: none ": {
+		"prefix": "afmn",
+		"body": "animation-fill-mode: none;",
+		"description": ""
+	},
+	"animation-fill-mode: forwards": {
+		"prefix": "animation-fill-mode: forwards",
+		"body": "animation-fill-mode: forwards;",
+		"description": ""
+	},
+	"animation-fill-mode: forwards ": {
+		"prefix": "afmf",
+		"body": "animation-fill-mode: forwards;",
+		"description": ""
+	},
+	"animation-fill-mode: both": {
+		"prefix": "animation-fill-mode: both",
+		"body": "animation-fill-mode: both;",
+		"description": ""
+	},
+	"animation-fill-mode: both ": {
+		"prefix": "afmb",
+		"body": "animation-fill-mode: both;",
+		"description": ""
+	},
+	"animation-fill-mode: backwards": {
+		"prefix": "animation-fill-mode: backwards",
+		"body": "animation-fill-mode: backwards;",
+		"description": ""
+	},
+	"animation-fill-mode: backwards ": {
+		"prefix": "afmb",
+		"body": "animation-fill-mode: backwards;",
+		"description": ""
+	},
+	"animation-iteration-count: infinite": {
+		"prefix": "animation-iteration-count: infinite",
+		"body": "animation-iteration-count: infinite;",
+		"description": ""
+	},
+	"animation-iteration-count: infinite ": {
+		"prefix": "aici",
+		"body": "animation-iteration-count: infinite;",
+		"description": ""
+	},
+	"animation-iteration-count: ;": {
+		"prefix": "animation-iteration-count",
+		"body": "animation-iteration-count: ${1:number-count};",
+		"description": ""
+	},
+	"animation-iteration-count: ; ": {
+		"prefix": "aic",
+		"body": "animation-iteration-count: ${1:number-count};",
+		"description": ""
+	},
+	"animation-iteration-count: 4;": {
+		"prefix": "animation-iteration-count: 4;",
+		"body": "animation-iteration-count: 4;",
+		"description": ""
+	},
+	"animation-direction: reverse": {
+		"prefix": "animation-direction: reverse",
+		"body": "animation-direction: reverse;",
+		"description": ""
+	},
+	"animation-direction: reverse ": {
+		"prefix": "adr",
+		"body": "animation-direction: reverse;",
+		"description": ""
+	},
+	"animation-direction: alternate": {
+		"prefix": "animation-direction: alternate",
+		"body": "animation-direction: alternate;",
+		"description": ""
+	},
+	"animation-direction: alternate ": {
+		"prefix": "ada",
+		"body": "animation-direction: alternate;",
+		"description": ""
+	},
+	"animation-direction: normal": {
+		"prefix": "animation-direction: normal",
+		"body": "animation-direction: normal;",
+		"description": ""
+	},
+	"animation-direction: normal ": {
+		"prefix": "adn",
+		"body": "animation-direction: normal;",
+		"description": ""
+	},
+	"animation-direction: alternate-reverse": {
+		"prefix": "animation-direction: alternate-reverse",
+		"body": "animation-direction: alternate-reverse;",
+		"description": ""
+	},
+	"animation-direction: alternate-reverse ": {
+		"prefix": "adar",
+		"body": "animation-direction: alternate-reverse;",
+		"description": ""
+	},
+	"animation-play-state: paused": {
+		"prefix": "animation-play-state: paused",
+		"body": "animation-play-state: paused;",
+		"description": ""
+	},
+	"animation-play-state: paused ": {
+		"prefix": "apsp",
+		"body": "animation-play-state: paused;",
+		"description": ""
+	},
+	"animation-play-state: running": {
+		"prefix": "animation-play-state: running",
+		"body": "animation-play-state: running;",
+		"description": ""
+	},
+	"animation-play-state: running ": {
+		"prefix": "apsr",
+		"body": "animation-play-state: running;",
+		"description": ""
+	},
+	"animation": {
+		"prefix": "animation",
+		"body": "animation: ${1:keyframes-name} ${2:duration-time(s|ms)} ${3:timing-function(ease)} ${4:delay(s|ms)} ${5:iteration-count(infinite)} ${6:direction(alternate)} ${7:fill-mode(forwards)};",
+		"description": ""
+	},
+	"selector-class": {
+		"prefix": "selector-class",
+		"body": ".${1:class-name}{\r\n  $2\r\n}",
+		"description": ""
+	},
+	"selector-class ": {
+		"prefix": ".",
+		"body": ".${1:class-name}{\r\n    $2\r\n}",
+		"description": ""
+	},
+	"selector-id": {
+		"prefix": "selector-id",
+		"body": "#${1:id-name}{\r\n    $2\r\n}",
+		"description": ""
+	},
+	"selector-id ": {
+		"prefix": "#",
+		"body": "#${1:id-name}{\r\n    $2\r\n}",
+		"description": ""
+	},
+	"selector-element": {
+		"prefix": "selector-element",
+		"body": "${1:element}{\r\n    $2\r\n}",
+		"description": ""
+	},
+	"selector-global": {
+		"prefix": "selector-global",
+		"body": "*{\r\n    $2\r\n}",
+		"description": ""
+	},
+	"selector-global ": {
+		"prefix": "*",
+		"body": "*{\r\n    $2\r\n}",
+		"description": ""
+	},
+	"selector-and": {
+		"prefix": "selector-element-and",
+		"body": "${1:element}, ${2:element}{\r\n    $3\r\n}",
+		"description": ""
+	},
+	"selector-and ": {
+		"prefix": ",",
+		"body": "${1:element}, ${2:element}{\r\n    $3\r\n}",
+		"description": ""
+	},
+	"selecto-inside": {
+		"prefix": "selecto-inside",
+		"body": "${1:element-parent} ${2:element-inside}{\r\n    $3\r\n}",
+		"description": ""
+	},
+	"selecto-inside ": {
+		"prefix": " ",
+		"body": "${1:element-parent} ${2:element-inside}{\r\n    $3\r\n}",
+		"description": ""
+	},
+	"selector-child": {
+		"prefix": "selector-child",
+		"body": "${1:element-parent}>${2:element-child}{\r\n    $3\r\n}",
+		"description": ""
+	},
+	"selector-child ": {
+		"prefix": ">",
+		"body": "${1:element-parent}>${2:element-child}{\r\n    $3\r\n}",
+		"description": ""
+	},
+	"selector-sibling": {
+		"prefix": "selector-after",
+		"body": "${1:element}+${2:element-after}{\r\n    $3\r\n}",
+		"description": ""
+	},
+	"selector-after ": {
+		"prefix": "+",
+		"body": "${1:element}+${2:element-after}{\r\n    $3\r\n}",
+		"description": ""
+	},
+	"selecror-before": {
+		"prefix": "selecror-before",
+		"body": "${1:element}~${2:element-berfore}{\r\n    $3\r\n}",
+		"description": ""
+	},
+	"selecror-before ": {
+		"prefix": "~",
+		"body": "${1:element}~${2:element-berfore}{\r\n    $3\r\n}",
+		"description": ""
+	},
+	"selector-attribute": {
+		"prefix": "selector-attribute",
+		"body": "${1:elament}[${2:attribut}]{\r\n    $3\r\n}",
+		"description": ""
+	},
+	"selector-attribute ": {
+		"prefix": "[]",
+		"body": "${1:elament}[${2:attribut}]{\r\n    $3\r\n}",
+		"description": ""
+	},
+	"selector-attribute-all": {
+		"prefix": "selector-attribute-all",
+		"body": "[${1:atrribute}]{\r\n    $2\r\n}",
+		"description": ""
+	},
+	"selector-attribute-all ": {
+		"prefix": "[]",
+		"body": "[${1:atrribute}]{\r\n    $2\r\n}",
+		"description": ""
+	},
+	"selector-attribute-value": {
+		"prefix": "selector-attribute-value",
+		"body": "${1:elament}[${2:attribut}=${3:value}]{\r\n    $4\r\n}",
+		"description": ""
+	},
+	"selector-attribute-value ": {
+		"prefix": "[=]",
+		"body": "${1:elament}[${2:attribut}=${3:value}]{\r\n    $4\r\n}",
+		"description": ""
+	},
+	"selector-attribute-value-word": {
+		"prefix": "selector-attribute-value-have",
+		"body": "${1:elament}[${2:attribut}~=${3:word-of-value}]{\r\n    $4\r\n}",
+		"description": ""
+	},
+	"selector-attribute-value-word ": {
+		"prefix": "[~=]",
+		"body": "${1:elament}[${2:attribut}~=${3:word-of-value}]{\r\n    $4\r\n}",
+		"description": ""
+	},
+	"selector-attribute-value-started": {
+		"prefix": "selector-attribute-value-started",
+		"body": "${1:elament}[${2:attribut}|=${3:value-started}]{\r\n    $4\r\n}",
+		"description": ""
+	},
+	"selector-attribute-value-started ": {
+		"prefix": "[|=]",
+		"body": "${1:elament}[${2:attribut}|=${3:value-started}]{\r\n    $4\r\n}",
+		"description": ""
+	},
+	"selector-attribute-value-begain": {
+		"prefix": "selector-attribute-value-begain",
+		"body": "${1:elament}[${2:attribut}^=${3:value-begain}]{\r\n    $4\r\n}",
+		"description": ""
+	},
+	"selector-attribute-value-begain ": {
+		"prefix": "[^=]",
+		"body": "${1:elament}[${2:attribut}^=${3:value-begain}]{\r\n    $4\r\n}",
+		"description": ""
+	},
+	"selector-attribute-value-end": {
+		"prefix": "selector-attribute-value-end",
+		"body": "${1:elament}[${2:attribut}$=${3:value-end}]{\r\n    $4\r\n}\r\n",
+		"description": ""
+	},
+	"selector-attribute-value-end ": {
+		"prefix": "[$=]",
+		"body": "${1:elament}[${2:attribut}$=${3:value-end}]{\r\n    $4\r\n}\r\n",
+		"description": ""
+	},
+	"selector-attribute-value-have": {
+		"prefix": "selector-attribute-value-have",
+		"body": "${1:elament}[${2:attribut}*= ${3:part-value}]{\r\n    $4\r\n}",
+		"description": ""
+	},
+	"selector-attribute-value-have ": {
+		"prefix": "[*=]",
+		"body": "${1:elament}[${2:attribut}*= ${3:part-value}]{\r\n    $4\r\n}",
+		"description": ""
+	},
+	"var": {
+		"prefix": "var",
+		"body": "var(--${1:name})",
+		"description": ""
+	},
+	"display:flex": {
+		"prefix": "df",
+		"body": "display: flex;",
+		"description": ""
+	},
+	"flex": {
+		"prefix": "flex",
+		"body": "flex: ${1:grow} ${2:shrink} ${3:basis};",
+		"description": ""
+	},
+	"flex ": {
+		"prefix": "f",
+		"body": "flex: ${1:grow} ${2:shrink} ${3:basis};",
+		"description": ""
+	},
+	"flex: 1 1 uto": {
+		"prefix": "flex: 1 1 uto",
+		"body": "flex: 1 1 auto;",
+		"description": ""
+	},
+	"flex: 1 1 uto ": {
+		"prefix": "f11auto",
+		"body": "flex: 1 1 auto;",
+		"description": ""
+	},
+	"flex: 0 0 uto": {
+		"prefix": "flex: 0 0 uto",
+		"body": "flex: 0 0 auto;",
+		"description": ""
+	},
+	"flex: 0 0 uto ": {
+		"prefix": "f00auto",
+		"body": "flex: 0 0 auto;",
+		"description": ""
+	},
+	"flex: 1 0 uto": {
+		"prefix": "flex: 1 0 uto",
+		"body": "flex: 1 0 auto;",
+		"description": ""
+	},
+	"flex: 1 0 uto ": {
+		"prefix": "f10auto",
+		"body": "flex: 1 0 auto;",
+		"description": ""
+	},
+	"flex: 0 1 uto": {
+		"prefix": "flex: 0 1 uto",
+		"body": "flex: 0 1 auto;",
+		"description": ""
+	},
+	"flex: 0 1 uto ": {
+		"prefix": "f01auto",
+		"body": "flex: 0 1 auto;",
+		"description": ""
+	},
+	"flex-direction: column;": {
+		"prefix": "flex-direction: column;",
+		"body": "flex-direction: column;",
+		"description": ""
+	},
+	"flex-direction: column; ": {
+		"prefix": "fdc",
+		"body": "flex-direction: column;",
+		"description": ""
+	},
+	"flex-direction: column-reverse;": {
+		"prefix": "flex-direction: column-reverse;",
+		"body": "flex-direction: column-reverse;",
+		"description": ""
+	},
+	"flex-direction: column-reverse; ": {
+		"prefix": "fdcr;",
+		"body": "flex-direction: column-reverse;",
+		"description": ""
+	},
+	"flex-direction: row;": {
+		"prefix": "flex-direction: row;",
+		"body": "flex-direction: row;",
+		"description": ""
+	},
+	"flex-direction: row; ": {
+		"prefix": "fdr;",
+		"body": "flex-direction: row;",
+		"description": ""
+	},
+	"flex-direction: row-reverse;": {
+		"prefix": "flex-direction: row-reverse;",
+		"body": "flex-direction: row-reverse;",
+		"description": ""
+	},
+	"flex-direction: row-reverse; ": {
+		"prefix": "fdrr;",
+		"body": "flex-direction: row-reverse;",
+		"description": ""
+	},
+	"flex-wrap: nowrap;": {
+		"prefix": "flex-wrap: nowrap;",
+		"body": "flex-wrap: nowrap;",
+		"description": ""
+	},
+	"flex-wrap: nowrap; ": {
+		"prefix": "fwn;",
+		"body": "flex-wrap: nowrap;",
+		"description": ""
+	},
+	"flex-wrap: wrap;": {
+		"prefix": "flex-wrap: wrap;",
+		"body": "flex-wrap: wrap;",
+		"description": ""
+	},
+	"flex-wrap: wrap; ": {
+		"prefix": "fww;",
+		"body": "flex-wrap: wrap;",
+		"description": ""
+	},
+	"flex-wrap: wrap-reverse;": {
+		"prefix": "flex-wrap: wrap-reverse;",
+		"body": "flex-wrap: wrap-reverse;",
+		"description": ""
+	},
+	"flex-wrap: wrap-reverse; ": {
+		"prefix": "fwwr;",
+		"body": "flex-wrap: wrap-reverse;",
+		"description": ""
+	},
+	"flex-grow: ;": {
+		"prefix": "flex-grow: ;",
+		"body": "flex-grow: ${1:count};",
+		"description": ""
+	},
+	"flex-grow: ; ": {
+		"prefix": "fg",
+		"body": "flex-grow: ${1:count};",
+		"description": ""
+	},
+	"flex-grow: 1;": {
+		"prefix": "flex-grow: 1;",
+		"body": "flex-grow: 1;",
+		"description": ""
+	},
+	"flex-grow: 1; ": {
+		"prefix": "fg1;",
+		"body": "flex-grow: 1;",
+		"description": ""
+	},
+	"flex-grow: 0;": {
+		"prefix": "flex-grow: 0;",
+		"body": "flex-grow: 0;",
+		"description": ""
+	},
+	"flex-grow: 0; ": {
+		"prefix": "fg0",
+		"body": "flex-grow: 0;",
+		"description": ""
+	},
+	"flex-shrink: ;": {
+		"prefix": "flex-shrink: ;",
+		"body": "flex-shrink: ${1:count};",
+		"description": ""
+	},
+	"flex-shrink: ; ": {
+		"prefix": "fsh",
+		"body": "flex-shrink: ${1:count};",
+		"description": ""
+	},
+	"flex-shrink: 0;": {
+		"prefix": "flex-shrink: 0;",
+		"body": "flex-shrink: 0;",
+		"description": ""
+	},
+	"flex-shrink: 0; ": {
+		"prefix": "fsh0",
+		"body": "flex-shrink: 0;",
+		"description": ""
+	},
+	"flex-shrink: 1;": {
+		"prefix": "flex-shrink: 1;",
+		"body": "flex-shrink: 1;",
+		"description": ""
+	},
+	"flex-shrink: 1; ": {
+		"prefix": "fsh1",
+		"body": "flex-shrink: 1;",
+		"description": ""
+	},
+	"display: inline-flexbox;": {
+		"prefix": "dif",
+		"body": "display: inline-flexbox;",
+		"description": ""
+	},
+	"flex-flow: flex-direction flex-wrap;": {
+		"prefix": "flex-flow: ;",
+		"body": "flex-flow: {1:flex-direction} {2:flex-wrap};",
+		"description": ""
+	},
+	"flex-flow: flex-direction flex-wrap; ": {
+		"prefix": "ff",
+		"body": "flex-flow: {1:flex-direction} {2:flex-wrap};",
+		"description": ""
+	},
+	"flex-flow: row nowrap;": {
+		"prefix": "flex-flow: row nowrap;",
+		"body": "flex-flow: row nowrap;",
+		"description": ""
+	},
+	"flex-flow: row nowrap; ": {
+		"prefix": "ffrn",
+		"body": "flex-flow: row nowrap;",
+		"description": ""
+	},
+		"flex-flow: row wrap;": {
+		"prefix": "flex-flow: row wrap;",
+		"body": "flex-flow: row wrap;",
+		"description": ""
+	},
+		"flex-flow: row wrap; ": {
+		"prefix": "ffrw",
+		"body": "flex-flow: row wrap;",
+		"description": ""
+	},
+		"flex-flow: row wrap-reverse;": {
+		"prefix": "flex-flow: row wrap-reverse;",
+		"body": "flex-flow: row wrap-reverse;",
+		"description": ""
+	},
+		"flex-flow: row wrap-reverse; ": {
+		"prefix": "ffrwr",
+		"body": "flex-flow: row wrap-reverse;",
+		"description": ""
+	},
+	"flex-flow: row-reverse nowrap;": {
+		"prefix": "flex-flow: row-reverse nowrap;",
+		"body": "flex-flow: row-reverse nowrap;",
+		"description": ""
+	},
+	"flex-flow: row-reverse nowrap; ": {
+		"prefix": "ffrrn",
+		"body": "flex-flow: row-reverse nowrap;",
+		"description": ""
+	},
+	"flex-flow: row-reverse wrap;": {
+		"prefix": "flex-flow: row-reverse wrap;",
+		"body": "flex-flow: row-reverse wrap;",
+		"description": ""
+	},
+	"flex-flow: row-reverse wrap; ": {
+		"prefix": "ffrrw",
+		"body": "flex-flow: row-reverse nowrap;",
+		"description": ""
+	},
+	"flex-flow: row-reverse wrap-reverse;": {
+		"prefix": "flex-flow: row-reverse wrap-reverse;",
+		"body": "flex-flow: row-reverse wrap-reverse;",
+		"description": ""
+	},
+	"flex-flow: row-reverse wrap-reverse; ": {
+		"prefix": "ffrrwr",
+		"body": "flex-flow: row-reverse wrap-reverse;",
+		"description": ""
+	},
+
+	"flex-flow: column nowrap;": {
+		"prefix": "flex-flow: column nowrap;",
+		"body": "flex-flow: column nowrap;",
+		"description": ""
+	},
+	"flex-flow: column nowrap; ": {
+		"prefix": "ffcn",
+		"body": "flex-flow: column nowrap;",
+		"description": ""
+	},
+	"flex-flow: column wrap;": {
+		"prefix": "flex-flow: column wrap;",
+		"body": "flex-flow: column wrap;",
+		"description": ""
+	},
+	"flex-flow: column wrap; ": {
+		"prefix": "ffcw",
+		"body": "flex-flow: column wrap;",
+		"description": ""
+	},
+	"flex-flow: column wrap-reverse;": {
+		"prefix": "flex-flow: column wrap-reverse;",
+		"body": "flex-flow: column wrap-reverse;",
+		"description": ""
+	},
+	"flex-flow: column wrap-reverse; ": {
+		"prefix": "ffcwr",
+		"body": "flex-flow: column wrap-reverse;",
+		"description": ""
+	},
+	"flex-flow: column-reverse nowrap;": {
+		"prefix": "flex-flow: column-reverse nowrap;",
+		"body": "flex-flow: column-reverse nowrap;",
+		"description": ""
+	},
+	"flex-flow: column-reverse nowrap; ": {
+		"prefix": "ffcrn",
+		"body": "flex-flow: column-reverse nowrap;",
+		"description": ""
+	},
+	"flex-flow: column-reverse wrap;": {
+		"prefix": "flex-flow: column-reverse wrap;",
+		"body": "flex-flow: column-reverse wrap;",
+		"description": ""
+	},
+	"flex-flow: column-reverse wrap; ": {
+		"prefix": "ffcrw",
+		"body": "flex-flow: column-reverse wrap;",
+		"description": ""
+	},
+	"flex-flow: column-reverse wrap-reverse;": {
+		"prefix": "flex-flow: column-reverse wrap-reverse;",
+		"body": "flex-flow: column-reverse wrap-reverse;",
+		"description": ""
+	},
+	"flex-flow: column-reverse wrap-reverse; ": {
+		"prefix": "ffcrwr",
+		"body": "flex-flow: column-reverse wrap-reverse;",
+		"description": ""
+	},
+	"justify-content: flex-start;": {
+		"prefix": "justify-content: flex-start;",
+		"body": "justify-content: flex-start;",
+		"description": ""
+	},
+	"justify-content: flex-start; ": {
+		"prefix": "jcfs",
+		"body": "justify-content: flex-start;",
+		"description": ""
+	},
+	"justify-content: flex-end;": {
+		"prefix": "justify-content: flex-end;",
+		"body": "justify-content: flex-end;",
+		"description": ""
+	},
+	"justify-content: flex-end ;": {
+		"prefix": "jcfe;",
+		"body": "justify-content: flex-end;",
+		"description": ""
+	},
+	"justify-content: space-evenly;": {
+		"prefix": "justify-content: space-evenly;",
+		"body": "justify-content: space-evenly;",
+		"description": ""
+	},
+	"justify-content: space-evenly ;": {
+		"prefix": "jcse;",
+		"body": "justify-content: space-evenly;",
+		"description": ""
+	},
+	"justify-content: space-between;": {
+		"prefix": "justify-content: space-between;",
+		"body": "justify-content: space-between;",
+		"description": ""
+	},
+	"justify-content: space-between ;": {
+		"prefix": "jcsb;",
+		"body": "justify-content: space-between;",
+		"description": ""
+	},
+	"justify-content: space-around;": {
+		"prefix": "justify-content: space-around;",
+		"body": "justify-content: space-around;",
+		"description": ""
+	},
+	"justify-content: space-around ;": {
+		"prefix": "jcsa;",
+		"body": "justify-content: space-around;",
+		"description": ""
+	},
+	"align-items: stretch;": {
+		"prefix": "align-items: stretch;",
+		"body": "align-items: stretch;",
+		"description": ""
+	},
+	"align-items: stretch ;": {
+		"prefix": "ais;",
+		"body": "align-items: stretch;",
+		"description": ""
+	},
+	"align-items: flex-start;": {
+		"prefix": "align-items: flex-start;",
+		"body": "align-items: flex-start;",
+		"description": ""
+	},
+	"align-items: flex-start ;": {
+		"prefix": "aifs;",
+		"body": "align-items: flex-start;",
+		"description": ""
+	},
+	"align-items: center;": {
+		"prefix": "align-items: center;",
+		"body": "align-items: center;",
+		"description": ""
+	},
+	"align-items: center ;": {
+		"prefix": "aic;",
+		"body": "align-items: center;",
+		"description": ""
+	},
+	"align-items: flex-end;": {
+		"prefix": "align-items: flex-end;",
+		"body": "align-items: flex-end;",
+		"description": ""
+	},
+	"align-items: flex-end ;": {
+		"prefix": "aife;",
+		"body": "align-items: flex-end;",
+		"description": ""
+	},
+	"align-items: baseline;": {
+		"prefix": "align-items: baseline;",
+		"body": "align-items: baseline;",
+		"description": ""
+	},
+	"align-items: baseline; ": {
+		"prefix": "aib;",
+		"body": "align-items: baseline;",
+		"description": ""
+	},
+	"align-content: stretch;": {
+		"prefix": "align-content: stretch;",
+		"body": "align-content: stretch;",
+		"description": ""
+	},
+	"align-content: stretch; ": {
+		"prefix": "acs",
+		"body": "align-content: stretch;",
+		"description": ""
+	},
+	"align-content: flex-start;": {
+		"prefix": "align-content: flex-start;",
+		"body": "align-content: flex-start;",
+		"description": ""
+	},
+	"align-content: flex-start; ": {
+		"prefix": "acfs",
+		"body": "align-content: flex-start;",
+		"description": ""
+	},
+	"align-content: flex-end;": {
+		"prefix": "align-content: flex-end;",
+		"body": "align-content: flex-end;",
+		"description": ""
+	},
+	"align-content: flex-end; ": {
+		"prefix": "acfe",
+		"body": "align-content: flex-end;",
+		"description": ""
+	},
+	"align-content: center;": {
+		"prefix": "align-content: center;",
+		"body": "align-content: center;",
+		"description": ""
+	},
+	"align-content: space-between;": {
+		"prefix": "align-content: space-between;",
+		"body": "align-content: space-between;",
+		"description": ""
+	},
+	"align-content: space-between; ": {
+		"prefix": "acsb",
+		"body": "align-content: space-between;",
+		"description": ""
+	},
+	"align-content: space-around;": {
+		"prefix": "align-content: space-around;",
+		"body": "align-content: space-around;",
+		"description": ""
+	},
+	"align-content: space-around; ": {
+		"prefix": "acsa",
+		"body": "align-content: space-around;",
+		"description": ""
+	},
+	
+	"order: 1;": {
+		"prefix": "order: 1;",
+		"body": "order: 1;",
+		"description": ""
+	},
+	"order: 1; ": {
+		"prefix": "o1",
+		"body": "order: 1;",
+		"description": ""
+	},
+	"order: 0;": {
+		"prefix": "order: 0;",
+		"body": "order: 0;",
+		"description": ""
+	},
+	"order: 0; ": {
+		"prefix": "o0",
+		"body": "order: 0;",
+		"description": ""
+	},
+	"order: -1;": {
+		"prefix": "order: -1;",
+		"body": "order: -1;",
+		"description": ""
+	},
+	"order: -1; ": {
+		"prefix": "o-1",
+		"body": "order: 0-1",
+		"description": ""
+	},
+	"order: ;": {
+		"prefix": "order: ;",
+		"body": "order: ${1:cont};",
+		"description": ""
+	},
+	"order: ; ": {
+		"prefix": "o",
+		"body": "order: ${1:cont};",
+		"description": ""
+	},
+	"align-self: flex-start;": {
+		"prefix": "align-self: flex-start;",
+		"body": "align-self: flex-start;",
+		"description": ""
+	},
+	"align-self: flex-start; ": {
+		"prefix": "asfs",
+		"body": "align-self: flex-start;",
+		"description": ""
+	},
+	"align-self: center;": {
+		"prefix": "align-self: center;",
+		"body": "align-self: center;",
+		"description": ""
+	},
+	"align-self: center; ": {
+		"prefix": "asc",
+		"body": "align-self: center;",
+		"description": ""
+	},
+	"align-self: flex-end;": {
+		"prefix": "align-self: flex-end;",
+		"body": "align-self: flex-end;",
+		"description": ""
+	},
+	"align-self: flex-end; ": {
+		"prefix": "asfe",
+		"body": "align-self: flex-end;",
+		"description": ""
+	},
+	"align-self: baseline;": {
+		"prefix": "align-self: baseline;",
+		"body": "align-self: baseline;",
+		"description": ""
+	},
+	"align-self: baseline; ": {
+		"prefix": "asb",
+		"body": "align-self: baseline;",
+		"description": ""
+	},
+	"align-self: stretch;": {
+		"prefix": "align-self: stretch;",
+		"body": "align-self: stretch;",
+		"description": ""
+	},
+	"align-self: stretch; ": {
+		"prefix": "ass",
+		"body": "align-self: stretch;",
+		"description": ""
+	},
+	"flex-basis: content;": {
+		"prefix": "flex-basis: content;",
+		"body": "flex-basis: content;",
+		"description": ""
+	},
+	"flex-basis: content; ": {
+		"prefix": "fbc;",
+		"body": "flex-basis: content;",
+		"description": ""
+	},
+	"flex-basis: auto;": {
+		"prefix": "flex-basis: auto;",
+		"body": "flex-basis: auto;",
+		"description": ""
+	},
+	"flex-basis: auto; ": {
+		"prefix": "fba",
+		"body": "flex-basis: auto;",
+		"description": ""
+	},
+	"flex-basis: 100%;": {
+		"prefix": "flex-basis: 100%;",
+		"body": "flex-basis: 100%;",
+		"description": ""
+	},
+	"flex-basis: 100%; ": {
+		"prefix": "fb100%;",
+		"body": "flex-basis: 100%;",
+		"description": ""
+	},
+	"flex-basis: 300px;": {
+		"prefix": "flex-basis: 300px;",
+		"body": "flex-basis: 300px;",
+		"description": ""
+	},
+	"flex-basis: 300px; ": {
+		"prefix": "fb300px;",
+		"body": "flex-basis: 300px;",
+		"description": ""
+	},
+	"flex-basis: ;": {
+		"prefix": "flex-basis: ;",
+		"body": "flex-basis: ${1:count};",
+		"description": ""
+	},
+	"flex-basis: ; ": {
+		"prefix": "fb",
+		"body": "flex-basis: ${1:count};",
+		"description": ""
+	},
+		
+	"color: blue;": {
+		"prefix": "color: blue;",
+		"body": "color: blue;",
+		"description": ""
+	},
+	"color: green;": {
+		"prefix": "color: green;",
+		"body": "color: green;",
+		"description": ""
+	},
+	"color: red;": {
+		"prefix": "color: red;",
+		"body": "color: red;",
+		"description": ""
+	},
+	"color: gray;": {
+		"prefix": "color: gray;",
+		"body": "color: gray;",
+		"description": ""
+	},
+	"color: black;": {
+		"prefix": "color: black;",
+		"body": "color: black;",
+		"description": ""
+	},
+	"color: yellow;": {
+		"prefix": "color: yellow;",
+		"body": "color: yellow;",
+		"description": ""
+	},
+	"color: pink;": {
+		"prefix": "color: pink;",
+		"body": "color: pink;",
+		"description": ""
+	},
+	"color: indigo;": {
+		"prefix": "color: indigo;",
+		"body": "color: indigo;",
+		"description": ""
+	},
+	"color: purple;": {
+		"prefix": "color: purple;",
+		"body": "color: purple;",
+		"description": ""
+	},
+	"color: orange;": {
+		"prefix": "color: orange;",
+		"body": "color: orange;",
+		"description": ""
+	},
+	"color: teal;": {
+		"prefix": "color: teal;",
+		"body": "color: teal;",
+		"description": ""
+	},
+	"color: cyan;": {
+		"prefix": "color: cyan;",
+		"body": "color: cyan;",
+		"description": ""
+	},
+	"color: white;": {
+		"prefix": "color: white;",
+		"body": "color: white;",
+		"description": ""
+	},
+	"color: primary;": {
+		"prefix": "color: primary;",
+		"body": "color: #007bff;",
+		"description": ""
+	},
+	"color: secondary;": {
+		"prefix": "color: secondary;",
+		"body": "color: #6c757d;",
+		"description": ""
+	},
+	"color: success;": {
+		"prefix": "color: success;",
+		"body": "color: #28a745;",
+		"description": ""
+	},
+	"color: info;": {
+		"prefix": "color: info;",
+		"body": "color: #17a2b8;",
+		"description": ""
+	},
+	"color: warning;": {
+		"prefix": "color: warning;",
+		"body": "color: #ffc107;",
+		"description": ""
+	},
+	"color: danger;": {
+		"prefix": "color: danger;",
+		"body": "color: #dc3545;",
+		"description": ""
+	},
+	"color: light;": {
+		"prefix": "color: light;",
+		"body": "color: #f8f9fa;",
+		"description": ""
+	},
+	"color: dark;": {
+		"prefix": "color: dark;",
+		"body": "color: #343a40;",
+		"description": ""
+	},
+	"color: brown;": {
+		"prefix": "color: brown;",
+		"body": "color: brown;",
+		"description": ""
+	},
+	"color: gold;": {
+		"prefix": "color: gold;",
+		"body": "color: gold;",
+		"description": ""
+	},
+	"color: yellowgreen;": {
+		"prefix": "color: yellowgreen;",
+		"body": "color: yellowgreen;",
+		"description": ""
+	},
+	"color: tomato;": {
+		"prefix": "color: tomato;",
+		"body": "color: tomato;",
+		"description": ""
+	},
+	"color: silver;": {
+		"prefix": "color: silver;",
+		"body": "color: silver;",
+		"description": ""
+	},
+	"color: orangered;": {
+		"prefix": "color: orangered;",
+		"body": "color: orangered;",
+		"description": ""
+	},
+	"color: chocolate;": {
+		"prefix": "color: chocolate;",
+		"body": "color: chocolate;",
+		"description": ""
+	},
+	"color: coral;": {
+		"prefix": "color: coral;",
+		"body": "color: coral;",
+		"description": ""
+	},
+	"color: crimson;": {
+		"prefix": "color: crimson;",
+		"body": "color: crimson;",
+		"description": ""
+	},
+	"color: darkblue;": {
+		"prefix": "color: darkblue;",
+		"body": "color: darkblue;",
+		"description": ""
+	},
+	"color: whitesmoke;": {
+		"prefix": "color: whitesmoke;",
+		"body": "color: whitesmoke;",
+		"description": ""
+	},
+	"color: wheat;": {
+		"prefix": "color: wheat;",
+		"body": "color: wheat;",
+		"description": ""
+	},
+	"color: violet;": {
+		"prefix": "color: violet;",
+		"body": "color: violet;",
+		"description": ""
+	},
+	"color: turquoise;": {
+		"prefix": "color: turquoise;",
+		"body": "color: turquoise;",
+		"description": ""
+	},
+	"color: thistle;": {
+		"prefix": "color: thistle;",
+		"body": "color: thistle;",
+		"description": ""
+	},
+	"color: tan;": {
+		"prefix": "color: tan;",
+		"body": "color: tan;",
+		"description": ""
+	},
+	"color: steelblue;": {
+		"prefix": "color: steelblue;",
+		"body": "color: steelblue;",
+		"description": ""
+	},
+	"color: springgreen;": {
+		"prefix": "color: springgreen;",
+		"body": "color: springgreen;",
+		"description": ""
+	},
+	"color: snow;": {
+		"prefix": "color: snow;",
+		"body": "color: snow;",
+		"description": ""
+	},
+	"color: slategrey;": {
+		"prefix": "color: slategrey;",
+		"body": "color: slategrey;",
+		"description": ""
+	},
+	"color: slateblue;": {
+		"prefix": "color: slateblue;",
+		"body": "color: slateblue;",
+		"description": ""
+	},
+	"color: skyblue;": {
+		"prefix": "color: skyblue;",
+		"body": "color: skyblue;",
+		"description": ""
+	},
+	"color: seashell;": {
+		"prefix": "color: seashell;",
+		"body": "color: seashell;",
+		"description": ""
+	},
+	"color: seagreen;": {
+		"prefix": "color: seagreen;",
+		"body": "color: seagreen;",
+		"description": ""
+	},
+		"list-style-type: none;": {
+		"prefix": "list-style-type: none;",
+		"body": "list-style-type: none;",
+		"description": ""
+	},
+		"list-style-type: none; ": {
+		"prefix": "lstn",
+		"body": "list-style-type: none;",
+		"description": ""
+	},
+	"list-style-type: armenian;": {
+		"prefix": "list-style-type: armenian;",
+		"body": "list-style-type: armenian;",
+		"description": ""
+	},
+	"list-style-type: circle;": {
+		"prefix": "list-style-type: circle;",
+		"body": "list-style-type: circle;",
+		"description": ""
+	},
+	"list-style-type: circle; ": {
+		"prefix": "lstc",
+		"body": "list-style-type: circle;",
+		"description": ""
+	},
+	"list-style-type: decimal;": {
+		"prefix": "list-style-type: decimal;",
+		"body": "list-style-type: decimal;",
+		"description": ""
+	},
+	"list-style-type: decimal; ": {
+		"prefix": "lstde",
+		"body": "list-style-type: decimal;",
+		"description": ""
+	},
+	"list-style-type: decimal-leading-zero;": {
+		"prefix": "list-style-type: decimal-leading-zero;",
+		"body": "list-style-type: decimal-leading-zero;",
+		"description": ""
+	},
+	"list-style-type: decimal-leading-zero; ": {
+		"prefix": "lstdlz",
+		"body": "list-style-type: decimal-leading-zero;",
+		"description": ""
+	},
+	"list-style-type: disc;": {
+		"prefix": "list-style-type: disc;",
+		"body": "list-style-type: disc;",
+		"description": ""
+	},
+	"list-style-type: disc; ": {
+		"prefix": "lstd",
+		"body": "list-style-type: disc;",
+		"description": ""
+	},
+	"list-style-type: georgian;": {
+		"prefix": "list-style-type: georgian;",
+		"body": "list-style-type: georgian;",
+		"description": ""
+	},
+	"list-style-type: georgian; ": {
+		"prefix": "lstg",
+		"body": "list-style-type: georgian;",
+		"description": ""
+	},
+	"list-style-type: lower-alpha;": {
+		"prefix": "list-style-type: lower-alpha;",
+		"body": "list-style-type: lower-alpha;",
+		"description": ""
+	},
+	"list-style-type: lower-alpha; ": {
+		"prefix": "lstla",
+		"body": "list-style-type: lower-alpha;",
+		"description": ""
+	},
+	"list-style-type: lower-greek;": {
+		"prefix": "list-style-type: lower-greek;",
+		"body": "list-style-type: lower-greek;",
+		"description": ""
+	},
+	"list-style-type: lower-greek; ": {
+		"prefix": "lstlg",
+		"body": "list-style-type: lower-greek;",
+		"description": ""
+	},
+	"list-style-type: lower-latin;": {
+		"prefix": "list-style-type: lower-latin;",
+		"body": "list-style-type: lower-latin;",
+		"description": ""
+	},
+	"list-style-type: lower-latin; ": {
+		"prefix": "lstll",
+		"body": "list-style-type: lower-latin;",
+		"description": ""
+	},
+	"list-style-type: lower-roman;": {
+		"prefix": "list-style-type: lower-roman;",
+		"body": "list-style-type: lower-roman;",
+		"description": ""
+	},
+	"list-style-type: lower-roman; ": {
+		"prefix": "lstlr",
+		"body": "list-style-type: lower-roman;",
+		"description": ""
+	},
+	"list-style-type: square;": {
+		"prefix": "list-style-type: square;",
+		"body": "list-style-type: square;",
+		"description": ""
+	},
+	"list-style-type: square; ": {
+		"prefix": "lsts",
+		"body": "list-style-type: square;",
+		"description": ""
+	},
+	"list-style-type: symbols();": {
+		"prefix": "list-style-type: symbols();",
+		"body": "list-style-type: symbols();",
+		"description": ""
+	},
+	"list-style-type: symbols(); ": {
+		"prefix": "lstsy",
+		"body": "list-style-type: symbols();",
+		"description": ""
+	},
+	"list-style-type: upper-alpha;": {
+		"prefix": "list-style-type: upper-alpha;",
+		"body": "list-style-type: upper-alpha;",
+		"description": ""
+	},
+	"list-style-type: upper-alpha; ": {
+		"prefix": "lstua",
+		"body": "list-style-type: upper-alpha;",
+		"description": ""
+	},
+	"list-style-type: upper-latin;": {
+		"prefix": "list-style-type: upper-latin;",
+		"body": "list-style-type: upper-latin;",
+		"description": ""
+	},
+	"list-style-type: upper-latin; ": {
+		"prefix": "lstul",
+		"body": "list-style-type: upper-latin;",
+		"description": ""
+	},
+	"list-style-type: upper-roman;": {
+		"prefix": "list-style-type: upper-roman;",
+		"body": "list-style-type: upper-roman;",
+		"description": ""
+	},
+	"list-style-type: upper-roman; ": {
+		"prefix": "lstur",
+		"body": "list-style-type: upper-roman;",
+		"description": ""
+	},
+	"display: inline-grid;": {
+		"prefix": "display: inline-grid;",
+		"body": "display: inline-grid;",
+		"description": ""
+	},
+	"display: inline-grid; ": {
+		"prefix": "dig",
+		"body": "display: inline-grid;",
+		"description": ""
+	},
+	"grid-template-rows: ;": {
+		"prefix": "grid-template-rows: ;",
+		"body": "grid-template-rows: $1;",
+		"description": ""
+	},
+	"grid-template-rows: ; ": {
+		"prefix": "gtr",
+		"body": "grid-template-rows: $1;",
+		"description": ""
+	},
+	"grid-template-columns: ;": {
+		"prefix": "grid-template-columns: ;",
+		"body": "grid-template-columns: $1;",
+		"description": ""
+	},
+	"grid-template-columns: ; ": {
+		"prefix": "gtc",
+		"body": "grid-template-columns: $1;",
+		"description": ""
+	},
+	"repeat()": {
+		"prefix": "repeat()",
+		"body": "repeat($1,$2)",
+		"description": ""
+	},
+	"repeat() ": {
+		"prefix": "r",
+		"body": "repeat($1,$2)",
+		"description": ""
+	},
+	"minmax()": {
+		"prefix": "minmax()",
+		"body": "minmax($1,$2)",
+		"description": ""
+	},
+	"minmax() ": {
+		"prefix": "mm",
+		"body": "minmax($1,$2)",
+		"description": ""
+	},
+	"grid-row-gap: ;": {
+		"prefix": "grid-row-gap: ;",
+		"body": "grid-row-gap: $1;",
+		"description": ""
+	},
+	"grid-row-gap: ; ": {
+		"prefix": "grg",
+		"body": "grid-row-gap: $1;",
+		"description": ""
+	},
+	"grid-column-gap: ;": {
+		"prefix": "grid-column-gap: ;",
+		"body": "grid-column-gap: $1;",
+		"description": ""
+	},
+	"grid-column-gap: ; ": {
+		"prefix": "gcg",
+		"body": "grid-column-gap: $1;",
+		"description": ""
+	},
+	"grid-gap: ;": {
+		"prefix": "grid-gap: ;",
+		"body": "grid-gap: ${1:row} ${2:column};",
+		"description": ""
+	},
+	"grid-gap: ; ": {
+		"prefix": "gg",
+		"body": "grid-gap: ${1:row} ${2:column};",
+		"description": ""
+	},
+	"grid-row-start: ;": {
+		"prefix": "grid-row-start: ;",
+		"body": "grid-row-start: $1;",
+		"description": ""
+	},
+	"grid-row-start: ;  ": {
+		"prefix": "grs",
+		"body": "grid-row-start: $1;",
+		"description": ""
+	},
+	"grid-row-end: ;": {
+		"prefix": "grid-row-end: ;",
+		"body": "grid-row-end: $1;",
+		"description": ""
+	},
+	"grid-row-end: ; ": {
+		"prefix": "gre",
+		"body": "grid-row-end: $1;",
+		"description": ""
+	},
+	"grid-column-start: ;": {
+		"prefix": "grid-column-start: ;",
+		"body": "grid-column-start: $1;",
+		"description": ""
+	},
+	"grid-column-start: ; ": {
+		"prefix": "gcs",
+		"body": "grid-column-start: $1;",
+		"description": ""
+	},
+	"grid-column-end: ;": {
+		"prefix": "grid-column-end: ;",
+		"body": "grid-column-end: $1;",
+		"description": ""
+	},
+	"grid-column-end: ; ": {
+		"prefix": "gce",
+		"body": "grid-column-end: $1;",
+		"description": ""
+	},
+	"grid-row: ;": {
+		"prefix": "grid-row: ;",
+		"body": "grid-row: ${1:start} / ${2:end};",
+		"description": ""
+	},
+	"grid-row: ; ": {
+		"prefix": "gr",
+		"body": "grid-row: ${1:start} / ${2:end};",
+		"description": ""
+	},
+	"grid-column: ;": {
+		"prefix": "grid-column: ;",
+		"body": "grid-column: ${1:start} / ${2:end};",
+		"description": ""
+	},
+	"grid-column: ; " : {
+		"prefix": "gc",
+		"body": "grid-column: ${1:start} / ${2:end};",
+		"description": ""
+	},
+	"grid-area: ;": {
+		"prefix": "grid-area: ;",
+		"body": "grid-area: ${1:rowstart} / ${2:columnstart} / ${3:rowend} / ${4:columnend};",
+		"description": ""
+	},
+	"grid-area: ; ": {
+		"prefix": "ga",
+		"body": "grid-area: ${1:rowstart} / ${2:columnstart} / ${3:rowend} / ${4:columnend};",
+		"description": ""
+	},
+	"grid-auto-rows: ;": {
+		"prefix": "grid-auto-rows: ;",
+		"body": "grid-auto-rows: $1;",
+		"description": ""
+	},
+	"grid-auto-rows: ; ": {
+		"prefix": "gar",
+		"body": "grid-auto-rows: $1;",
+		"description": ""
+	},
+	"grid-auto-flow: row;": {
+		"prefix": "grid-auto-flow: row;",
+		"body": "grid-auto-flow: row;",
+		"description": ""
+	},
+	"grid-auto-flow: row; ": {
+		"prefix": "gafr",
+		"body": "grid-auto-flow: row;",
+		"description": ""
+	},
+	"grid-auto-flow: column;": {
+		"prefix": "grid-auto-flow: column;",
+		"body": "grid-auto-flow: column;",
+		"description": ""
+	},
+	"grid-auto-flow: column; ": {
+		"prefix": "gafc",
+		"body": "grid-auto-flow: column;",
+		"description": ""
+	},
+	"grid-auto-flow: dense;": {
+		"prefix": "grid-auto-flow: dense;",
+		"body": "grid-auto-flow: dense;",
+		"description": ""
+	},
+	"grid-auto-flow: dense; ": {
+		"prefix": "gafd",
+		"body": "grid-auto-flow: dense;",
+		"description": ""
+	},
+	"grid-auto-rows: min-content;": {
+		"prefix": "grid-auto-rows: min-content;",
+		"body": "grid-auto-rows: min-content;",
+		"description": ""
+	},
+	"grid-auto-rows: min-content; ": {
+		"prefix": "garmic",
+		"body": "grid-auto-rows: min-content;",
+		"description": ""
+	},
+	"grid-auto-rows: max-content;": {
+		"prefix": "grid-auto-rows: max-content;",
+		"body": "grid-auto-rows: max-content;",
+		"description": ""
+	},
+	"grid-auto-rows: max-content; ": {
+		"prefix": "garmc",
+		"body": "grid-auto-rows: max-content;",
+		"description": ""
+	},
+	"grid-auto-rows: auto;": {
+		"prefix": "grid-auto-rows: auto;",
+		"body": "grid-auto-rows: auto;",
+		"description": ""
+	},
+	"grid-auto-rows: auto; ": {
+		"prefix": "gara",
+		"body": "grid-auto-rows: auto;",
+		"description": ""
+	},
+	"grid-auto-rows: minmax();": {
+		"prefix": "grid-auto-rows: minmax();",
+		"body": "grid-auto-rows: minmax($1);",
+		"description": ""
+	},
+	"grid-auto-rows: minmax(); ": {
+		"prefix": "garm",
+		"body": "grid-auto-rows: minmax($1);",
+		"description": ""
+	},
+	"grid-auto-columns: ;": {
+		"prefix": "grid-auto-columns: ;",
+		"body": "grid-auto-columns: $1;",
+		"description": ""
+	},
+	"grid-auto-columns: ; ": {
+		"prefix": "gac",
+		"body": "grid-auto-columns: $1;",
+		"description": ""
+	},
+	"grid-auto-columns: minmax();": {
+		"prefix": "grid-auto-columns: minmax();",
+		"body": "grid-auto-columns: minmax($1);",
+		"description": ""
+	},
+	"grid-auto-columns: minmax(); ": {
+		"prefix": "gacm",
+		"body": "grid-auto-columns: minmax($1);",
+		"description": ""
+	},
+	"grid-auto-columns: min-content;": {
+		"prefix": "grid-auto-columns: min-content;",
+		"body": "grid-auto-columns: min-content;",
+		"description": ""
+	},
+	"grid-auto-columns: min-content; ": {
+		"prefix": "gacmic",
+		"body": "grid-auto-columns: min-content;",
+		"description": ""
+	},
+	"grid-auto-columns: max-content;": {
+		"prefix": "grid-auto-columns: max-content;",
+		"body": "grid-auto-columns: max-content;",
+		"description": ""
+	},
+	"grid-auto-columns: max-content; ": {
+		"prefix": "gacmc",
+		"body": "grid-auto-columns: max-content;",
+		"description": ""
+	},
+	"grid-auto-columns: auto;": {
+		"prefix": "grid-auto-columns: auto;",
+		"body": "grid-auto-columns: auto;",
+		"description": ""
+	},
+	"grid-auto-columns: auto; ": {
+		"prefix": "gaca;",
+		"body": "grid-auto-columns: auto;",
+		"description": ""
+	}
+}
